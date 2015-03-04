@@ -1,0 +1,9 @@
+#include "checkServer.cpp"
+
+
+int main(int argc, char *argv[])
+{
+	initServer sr;
+	sr.Setup();
+
+}

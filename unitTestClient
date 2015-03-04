@@ -1,0 +1,8 @@
+#include "checkClient.cpp"
+
+int main(int argc, char *argv[])
+{
+    initClient cl("127.0.0.1");
+    cl.Recv("/home/shiza/files/create");
+
+}
